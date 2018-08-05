@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro.woff');
+  font-weight: normal;
+  font-style: italic;
+  color: #263238;
+}
+h1 {
+  font-family: 'Gotham Pro';
+  font-size: 48px;
+  height: 79px;
+}
+h2 {
+  font-family: 'Gotham Pro';
+  font-size: 28px;
+  height: 46px;
+}
+h3 {
+  font-family: 'Gotham Pro';
+  font-size: 20px;
+  height: 33px;
+}
+p {
+  font-family: 'Gotham Pro';
+  font-size: 16px;
+  height: 34px;
+}
+a {
+  color: #1E88E5;
+  cursor: pointer;
+}
+a:hover {
+  color: #F44336;
+}
+a:active {
+  color: #263238;
+}
+.button {
+  font-family: 'Gotham Pro';
+  padding: 22px 46px;
+  background-color: #FFD95A;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 20px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #FDBB53;
+}
+.button:active {
+  background-color: #F87F44;
+}
+ul.tabs li {
+  font-family: 'Gotham Pro';
+  display: inline-block;
+  padding: 14px 22px;
+  cursor: pointer;
+  color: #1E88E5;
+}
+ul.tabs li:hover {
+  color: #F44336;
+}
+ul.tabs li.active {
+  border: 2px solid #FFD95A;
+  border-radius: 50px;
+  color: #263238;
+}
+ul.tabs li.active:hover {
+  cursor: pointer;
+}
+.logo {
+  width: 171px;
+  height: 120px;
+  background-image: url("../img/versal-logo.png");
+}
+.color-block div {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-block .color-black {
+  background-color: #263238;
+}
+.color-block .color-grey {
+  background-color: #ECEFF1;
+}
+.color-block .color-white-grey {
+  background-color: #F5F6F7;
+}
+.color-block .color-white {
+  background-color: #FFFFFF;
+  outline: 1px solid #ECEFF1;
+}
+.color-block .color-yellow {
+  background-color: #FFD95A;
+}
+.color-block .color-blue {
+  background-color: #1E88E5;
+}
+.color-block .color-sea-blue {
+  background-color: #4F82BF;
+}
+.color-block .color-red {
+  background-color: #F44336;
+}
+.elements-block .tabs {
+  padding-left: 0px;
+}
