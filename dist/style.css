@@ -160,6 +160,30 @@ header .actions {
   height: 700px;
   margin-top: 210px;
 }
+.img-before-services-block {
+  background: url("../img/Rectangle.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-top: 120px;
+}
+.services .container {
+  background-color: #FFFFFF;
+  margin-top: -460px;
+}
+.services .container .text-block-wrapper {
+  padding: 60px 30px 100px 100px;
+}
+.services .container h2 {
+  text-align: left;
+}
+.services .container img {
+  padding-top: 200px;
+  width: 100%;
+}
+.services .container a {
+  display: block;
+  text-align: center;
+}
 .quality {
   padding-top: 120px;
 }
