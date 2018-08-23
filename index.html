@@ -120,10 +120,10 @@
                 <div class="col-sm-12">
                     <h3>Плитные материалы</h3>
                     <ul class="tabs">
-                        <li class="active">Мебельные</li>
-                        <li>Строительные</li>
+                        <li class="active type-offer-event">Мебельные</li>
+                        <li class="type-offer-event stroitelnie">Строительные</li>
                     </ul>
-                    <div id="carouselExampleControls" class="carousel slide material-carousel" data-ride="carousel">
+                    <div id="carouselMebelnieMateriali" class="carousel slide material-carousel" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="elements-wrapper">
@@ -153,18 +153,38 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--<div class="carousel-item">-->
-                                <!--<div class="elements-wrapper">-->
-                                    <!--<div class="material">-->
-                                        <!--<img src="img/Rectangle 5.png">-->
-                                        <!--<p>ЛДСП</p>-->
-                                    <!--</div>-->
-                                    <!--<div class="material">-->
-                                        <!--<img src="img/Rectangle 5.png">-->
-                                        <!--<p>ЛДСП</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div id="carouselStroilenieMateriali" class="carousel slide material-carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="elements-wrapper">
+                                    <div class="material">
+                                        <img src="img/Rectangle 5.png">
+                                        <p>ЛДСП</p>
+                                    </div>
+                                    <div class="material">
+                                        <img src="img/Rectangle 5.png">
+                                        <p>ЛДСП</p>
+                                    </div>
+                                    <div class="material">
+                                        <img src="img/Rectangle 5.png">
+                                        <p>ЛДСП</p>
+                                    </div>
+                                    <div class="material">
+                                        <img src="img/Rectangle 5.png">
+                                        <p>ЛДСП</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,6 +198,7 @@
                     <p>В наличии на складе</p>
                     <span class="button order-action">Заказать</span>
                 </div>
+
             </div>
         </div>
     </div>
@@ -298,5 +319,6 @@
     <script src="dist/jquery-3.3.1.js"></script>
     <script src="dist/popper.js"></script>
     <script src="dist/bootstrap.js"></script>
+    <script src="src/js/events.js"></script>
 </body>
 </html>

@@ -194,6 +194,9 @@ header .actions {
   margin-right: auto;
   display: table;
 }
+.material-production #carouselStroilenieMateriali {
+  display: none;
+}
 .material-production .material-carousel .elements-wrapper {
   text-align: center;
 }
