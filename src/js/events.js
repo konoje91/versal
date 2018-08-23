@@ -36,6 +36,12 @@ var events = (function() {
 
         $('a.contacts-action').on('click', function(){
             $('html, body').animate({
+                scrollTop: $(".map-header").offset().top
+            }, 1000);
+        });
+
+        $('.order-action').on('click', function(){
+            $('html, body').animate({
                 scrollTop: $(".order").offset().top
             }, 1000);
         });
